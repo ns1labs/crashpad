@@ -9,7 +9,7 @@ required_conan_version = ">=1.33.0"
 
 class CrashpadConan(ConanFile):
     name = "crashpad"
-    version = "cci.20210507"
+    version = "ns1-dev"
     description = "Crashpad is a crash-reporting system."
     url = "https://github.com/ns1labs/crashpad.git"
     topics = ("conan", "crashpad", "crash", "error", "stacktrace", "collecting", "reporting")

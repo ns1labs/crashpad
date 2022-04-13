@@ -38,22 +38,22 @@ endmacro()
 #################
 ###  CRASHPAD
 #################
-set(CONAN_CRASHPAD_ROOT "/home/lparente/.conan/data/crashpad/cci.20210507/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2")
-set(CONAN_INCLUDE_DIRS_CRASHPAD "/home/lparente/.conan/data/crashpad/cci.20210507/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/include")
-set(CONAN_LIB_DIRS_CRASHPAD "/home/lparente/.conan/data/crashpad/cci.20210507/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/lib")
-set(CONAN_BIN_DIRS_CRASHPAD "/home/lparente/.conan/data/crashpad/cci.20210507/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/bin")
+set(CONAN_CRASHPAD_ROOT "/home/lparente/.conan/data/crashpad/ns1-dev/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2")
+set(CONAN_INCLUDE_DIRS_CRASHPAD "/home/lparente/.conan/data/crashpad/ns1-dev/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/include")
+set(CONAN_LIB_DIRS_CRASHPAD "/home/lparente/.conan/data/crashpad/ns1-dev/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/lib")
+set(CONAN_BIN_DIRS_CRASHPAD "/home/lparente/.conan/data/crashpad/ns1-dev/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/bin")
 set(CONAN_RES_DIRS_CRASHPAD )
 set(CONAN_SRC_DIRS_CRASHPAD )
-set(CONAN_BUILD_DIRS_CRASHPAD "/home/lparente/.conan/data/crashpad/cci.20210507/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/"
-			"/home/lparente/.conan/data/crashpad/cci.20210507/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/lib/cmake")
+set(CONAN_BUILD_DIRS_CRASHPAD "/home/lparente/.conan/data/crashpad/ns1-dev/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/"
+			"/home/lparente/.conan/data/crashpad/ns1-dev/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/lib/cmake")
 set(CONAN_FRAMEWORK_DIRS_CRASHPAD )
-set(CONAN_LIBS_CRASHPAD format handler client minidump handler_common snapshot client_common context util compat base)
-set(CONAN_PKG_LIBS_CRASHPAD format handler client minidump handler_common snapshot client_common context util compat base)
+set(CONAN_LIBS_CRASHPAD format handler client minidump tool_support handler_common snapshot client_common context util compat base net)
+set(CONAN_PKG_LIBS_CRASHPAD format handler client minidump tool_support handler_common snapshot client_common context util compat base net)
 set(CONAN_SYSTEM_LIBS_CRASHPAD )
 set(CONAN_FRAMEWORKS_CRASHPAD )
 set(CONAN_FRAMEWORKS_FOUND_CRASHPAD "")  # Will be filled later
 set(CONAN_DEFINES_CRASHPAD )
-set(CONAN_BUILD_MODULES_PATHS_CRASHPAD "/home/lparente/.conan/data/crashpad/cci.20210507/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/lib/cmake/crashpad-cxx.cmake")
+set(CONAN_BUILD_MODULES_PATHS_CRASHPAD "/home/lparente/.conan/data/crashpad/ns1-dev/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/lib/cmake/crashpad-cxx.cmake")
 # COMPILE_DEFINITIONS are equal to CONAN_DEFINES without -D, for targets
 set(CONAN_COMPILE_DEFINITIONS_CRASHPAD )
 
@@ -246,29 +246,29 @@ set(CONAN_CMD_SHARED_LINKER_FLAGS ${CONAN_SHARED_LINKER_FLAGS})
 set(CONAN_CMD_C_FLAGS ${CONAN_C_FLAGS})
 # Defining accumulated conan variables for all deps
 
-set(CONAN_INCLUDE_DIRS "/home/lparente/.conan/data/crashpad/cci.20210507/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/include"
+set(CONAN_INCLUDE_DIRS "/home/lparente/.conan/data/crashpad/ns1-dev/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/include"
 			"/home/lparente/.conan/data/linux-syscall-support/cci.20200813/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"
 			"/home/lparente/.conan/data/libcurl/7.75.0/_/_/package/0871da0308d339b8bf385c9acfcdbbd9953c6d06/include"
 			"/home/lparente/.conan/data/zlib/1.2.11/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include"
 			"/home/lparente/.conan/data/openssl/1.1.1n/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include" ${CONAN_INCLUDE_DIRS})
-set(CONAN_LIB_DIRS "/home/lparente/.conan/data/crashpad/cci.20210507/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/lib"
+set(CONAN_LIB_DIRS "/home/lparente/.conan/data/crashpad/ns1-dev/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/lib"
 			"/home/lparente/.conan/data/libcurl/7.75.0/_/_/package/0871da0308d339b8bf385c9acfcdbbd9953c6d06/lib"
 			"/home/lparente/.conan/data/zlib/1.2.11/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib"
 			"/home/lparente/.conan/data/openssl/1.1.1n/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib" ${CONAN_LIB_DIRS})
-set(CONAN_BIN_DIRS "/home/lparente/.conan/data/crashpad/cci.20210507/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/bin"
+set(CONAN_BIN_DIRS "/home/lparente/.conan/data/crashpad/ns1-dev/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/bin"
 			"/home/lparente/.conan/data/libcurl/7.75.0/_/_/package/0871da0308d339b8bf385c9acfcdbbd9953c6d06/bin"
 			"/home/lparente/.conan/data/openssl/1.1.1n/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/bin" ${CONAN_BIN_DIRS})
 set(CONAN_RES_DIRS "/home/lparente/.conan/data/libcurl/7.75.0/_/_/package/0871da0308d339b8bf385c9acfcdbbd9953c6d06/res" ${CONAN_RES_DIRS})
 set(CONAN_FRAMEWORK_DIRS  ${CONAN_FRAMEWORK_DIRS})
-set(CONAN_LIBS format handler client minidump handler_common snapshot client_common context util compat base curl z ssl crypto ${CONAN_LIBS})
-set(CONAN_PKG_LIBS format handler client minidump handler_common snapshot client_common context util compat base curl z ssl crypto ${CONAN_PKG_LIBS})
+set(CONAN_LIBS format handler client minidump tool_support handler_common snapshot client_common context util compat base net curl z ssl crypto ${CONAN_LIBS})
+set(CONAN_PKG_LIBS format handler client minidump tool_support handler_common snapshot client_common context util compat base net curl z ssl crypto ${CONAN_PKG_LIBS})
 set(CONAN_SYSTEM_LIBS dl pthread rt ${CONAN_SYSTEM_LIBS})
 set(CONAN_FRAMEWORKS  ${CONAN_FRAMEWORKS})
 set(CONAN_FRAMEWORKS_FOUND "")  # Will be filled later
 set(CONAN_DEFINES "-DCURL_STATICLIB=1" ${CONAN_DEFINES})
-set(CONAN_BUILD_MODULES_PATHS "/home/lparente/.conan/data/crashpad/cci.20210507/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/lib/cmake/crashpad-cxx.cmake" ${CONAN_BUILD_MODULES_PATHS})
-set(CONAN_CMAKE_MODULE_PATH "/home/lparente/.conan/data/crashpad/cci.20210507/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/"
-			"/home/lparente/.conan/data/crashpad/cci.20210507/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/lib/cmake"
+set(CONAN_BUILD_MODULES_PATHS "/home/lparente/.conan/data/crashpad/ns1-dev/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/lib/cmake/crashpad-cxx.cmake" ${CONAN_BUILD_MODULES_PATHS})
+set(CONAN_CMAKE_MODULE_PATH "/home/lparente/.conan/data/crashpad/ns1-dev/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/"
+			"/home/lparente/.conan/data/crashpad/ns1-dev/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/lib/cmake"
 			"/home/lparente/.conan/data/linux-syscall-support/cci.20200813/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/"
 			"/home/lparente/.conan/data/libcurl/7.75.0/_/_/package/0871da0308d339b8bf385c9acfcdbbd9953c6d06/"
 			"/home/lparente/.conan/data/zlib/1.2.11/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/"

@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/lparente/.conan/data/crashpad/cci.20210507/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/lib/cmake/crashpad-cxx.cmake"
+  "/home/lparente/.conan/data/crashpad/ns1-dev/_/_/package/e5e4094f00b4d346b321077904ab6a96c073dbc2/lib/cmake/crashpad-cxx.cmake"
   "../../CMakeLists.txt"
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"

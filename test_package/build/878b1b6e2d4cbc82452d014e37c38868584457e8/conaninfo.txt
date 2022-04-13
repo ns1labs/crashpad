@@ -7,7 +7,7 @@
     os=Linux
 
 [requires]
-    crashpad/cci.20210507
+    crashpad/ns1-dev
 
 [options]
 
@@ -21,7 +21,7 @@
     os=Linux
 
 [full_requires]
-    crashpad/cci.20210507:e5e4094f00b4d346b321077904ab6a96c073dbc2
+    crashpad/ns1-dev:e5e4094f00b4d346b321077904ab6a96c073dbc2
     libcurl/7.75.0:0871da0308d339b8bf385c9acfcdbbd9953c6d06
     linux-syscall-support/cci.20200813:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
     openssl/1.1.1n:6af9cc7cb931c5ad942174fd7838eb655717c709

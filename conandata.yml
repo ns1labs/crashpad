@@ -10,8 +10,8 @@ sources:
   "ns1-dev":
     url:
       crashpad:
-        url: "https://github.com/ns1labs/crashpad/archive/485e40e86f2e483ba64254be21b3cdbcbc294a6e.zip"
-        sha256: "fb97753db5c087a1d31e25f21aa12de03b965510b3a84554e607592057768e24"
+        url: "https://github.com/ns1labs/crashpad/archive/41e110799faaf16cbf69fbc9264cf2575cfc1043.zip"
+        sha256: "9c4fce93e5d5ba3b337a93a155fc8a52003aad36fbcae379b7bfc2bc6f7f7dec"
       mini_chromium:
         url: "https://github.com/chromium/mini_chromium/archive/822fada4a9972e3e2f36a981da770539025beb0a.zip"
         sha256: "0c672b8b86f609d95a49faa007102a85f3950fb966b54b70b4e5a1d4abf7895f"
